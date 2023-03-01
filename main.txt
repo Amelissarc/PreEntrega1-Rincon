@@ -1,0 +1,94 @@
+<main>
+        {/* Your cart */}
+        <div className="content your-cart">
+          <div className="your-cart-items">
+          <h4>Your cart</h4>
+          <div className="your-cart-pack">
+            <div className="select-pack">
+              <div className="img-product"></div>
+              <div className="inf-product">
+                <div className="inf-product-title">
+                  <h5>Kit Yoga Mat</h5>
+                </div>
+                <div className="inf-product-subtitle">
+                  <h6>Quantity:</h6>
+                </div>
+                <div className="inf-product-caracteres">
+                  <ul>
+                    <li>Mat extreme 4mm</li>
+                    <li>Yoga block</li>
+                  </ul>
+                </div>
+                <div className="inf-product-edit">
+                  <button type="button">Edit pack</button>
+                  <button type="button">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div className="total-price">
+              <h5>$36.50</h5>
+              <h5>Total: $3,560.00</h5>
+            </div>
+          </div>
+          <div className="your-cart-pack">
+            <div className="select-pack">
+              <div className="img-product"></div>
+              <div className="inf-product">
+                <div className="inf-product-title">
+                  <h5>Basic T-Shirt</h5>
+                </div>
+                <div className="inf-product-subtitle">
+                  <h6>Quantity:</h6>
+                </div>
+                <div className="inf-product-edit">
+                  <i className="fa-regular fa-trash-can"></i>
+                  <button type="button">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div className="total-price">
+              <h5>$36.50</h5>
+              <h5>Total: $3,560.00</h5>
+            </div>
+          </div>
+          <div className="your-cart-pack">
+            <div className="select-pack">
+              <div className="img-product"></div>
+              <div className="inf-product">
+                <div className="inf-product-title">
+                  <h5>Woman bottle</h5>
+                </div>
+                <div className="inf-product-subtitle">
+                  <h6>Quantity:</h6>
+                </div>
+                <div className="inf-product-edit">
+                  <i className="fa-regular fa-trash-can"></i>
+                  <button type="button">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div className="total-price">
+              <h5>$36.50</h5>
+              <h5>Total: $3,560.00</h5>
+            </div>
+          </div>
+          </div>
+
+          {/* Order Sumary */}
+          <div className="order-summary">
+        <h4>Order Summary</h4>
+          <div className="order-summary-content">
+            <div className="number-items">
+              <p className="grey">Number of items</p>
+            </div>
+            <div className="total">
+              <h5>Total: </h5>
+            </div>
+          </div>
+          <div className="order-summary-footer">
+            <button type="button" className="btn btn-blue">Proceed to Checkout</button>
+            <button type="button" className="btn btn-white">Continue shopping</button>
+          </div>
+          </div>
+        </div>
+      </main>
