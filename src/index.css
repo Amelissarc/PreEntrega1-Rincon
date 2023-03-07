@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Montserrat',
     monospace;
 }
+
+/* Colors */
+:root {
+  --chocolate: #561220;
+  --rosa: #E5BCD9;
+  --negro: #1D1D1B;
+  --boton-principal: #AB4E6B;
+  --boton-secundary: #FFFFFF;
+  --separador: #CED0D3;
+  --gris-texto: #6B737C;
+}
+
+/* Generales */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  width: 100%;
+  overflow: hidden;
+}
+
+.containerPage {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+  border: 1px solid #CED0D3;
+}
