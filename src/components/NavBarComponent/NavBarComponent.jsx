@@ -5,12 +5,36 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+
 export const NavBarComponent = () => {
     return (
         <div>
             <header>
                 <div className="logoHeader">
                     <img src="./img/tipo-blancotrabajo.png" alt="logo"/>
+                </div>
+                <div className='formSearch'>
+                <Form className="d-flex">
+                    <Form.Control
+                        type="search"
+                        placeholder="Search Products"
+                        className="me-2"
+                        aria-label="Search"
+                    />
+                    <Button variant="outline-success"><i class="fa-solid fa-magnifying-glass"></i></Button>
+                </Form>
+                </div>
+                <div className='accountAndCartHeader'>
+                    <a href="#">
+                        <i class="fa-regular fa-user"></i>
+                        Sing in
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Cart
+                    </a>
                 </div>
             </header>
             <aside>
@@ -45,7 +69,7 @@ export function NavbarDarkExample() {
                     
                     <NavDropdown.Divider />
 
-                    <NavDropdown.Item href="#action/3.4">Home</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.4">Go to Home</NavDropdown.Item>
                 </NavDropdown>
             </Nav>
             </Navbar.Collapse>
