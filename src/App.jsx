@@ -1,14 +1,15 @@
 import styles from "./components/header/NavBarComponent/NavBar.css";
-import {NavBarComponent, NavbarDarkExample} from "./components";
+import {NavBarComponent, NavbarDarkExample, ItemListContainer} from "./components";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
 
   return (
-    <div>
+    <div className="mainContainer">
       <NavBarComponent />
       <NavbarDarkExample />
+      <ItemListContainer greetings = "Bienvenidos a mi Ecommerce" />
     </div>
   );
 }
