@@ -18,7 +18,6 @@ img {
 /* Search */
 .formSearch {
   margin: 1.5rem;
-  margin-left: 20rem;
   width: 500px;
 }
 
@@ -40,8 +39,11 @@ input.me-2.form-control {
 }
 
 /* Account and Cart */
+.accountAndCartHeader {
+  display: flex;
+}
 .accountAndCartHeader a {
-  color: var(--boton-secundary);
+  color: var(--negro);
   font-size: 1rem;
   text-decoration: none;
 }
@@ -49,9 +51,18 @@ input.me-2.form-control {
   color: var(--rosa);
 }
 .accountAndCartHeader i {
-  color: var(--boton-secundary);
+  color: var(--negro);
   padding: 2rem .6rem;
   font-size: 20px;
+}
+
+
+
+.indicator {
+  padding: 10px;
+  border-radius: 50px;
+  border: 2px solid #000;
+  color: #000;
 }
 .accountAndCartHeader i:hover {
   color: var(--rosa);

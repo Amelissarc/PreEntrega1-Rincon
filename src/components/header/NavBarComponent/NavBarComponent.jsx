@@ -1,4 +1,6 @@
 import React from 'react';
+import CartWidget from '../CartWidgetComponent/CartWidgetComponent';
+import ItemListContainer from '../ItemListComponent/ItemListComponent';
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -23,7 +25,9 @@ export const NavBarComponent = () => {
                         className="me-2"
                         aria-label="Search"
                     />
-                    <Button variant="outline-success"><i class="fa-solid fa-magnifying-glass"></i></Button>
+                    <Button variant="outline-success">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </Button>
                 </Form>
                 </div>
                 <div className='accountAndCartHeader'>
@@ -32,14 +36,13 @@ export const NavBarComponent = () => {
                         Sing in
                     </a>
                     <a href="#">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                        <CartWidget />
                         Cart
                     </a>
                 </div>
             </header>
             <aside>
-                <div className="asideHeader">
-                </div>
+                <div className="asideHeader"></div>
             </aside>
         </div>
     )
