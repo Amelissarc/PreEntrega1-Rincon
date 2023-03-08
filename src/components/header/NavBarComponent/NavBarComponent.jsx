@@ -37,7 +37,6 @@ export const NavBarComponent = () => {
                     </a>
                     <a href="#">
                         <CartWidget />
-                        Cart
                     </a>
                 </div>
             </header>

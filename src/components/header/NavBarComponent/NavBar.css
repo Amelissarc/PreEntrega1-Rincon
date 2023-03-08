@@ -43,7 +43,7 @@ input.me-2.form-control {
   display: flex;
 }
 .accountAndCartHeader a {
-  color: var(--negro);
+  color: var(--boton-secundary);
   font-size: 1rem;
   text-decoration: none;
 }
@@ -51,19 +51,20 @@ input.me-2.form-control {
   color: var(--rosa);
 }
 .accountAndCartHeader i {
-  color: var(--negro);
+  color: var(--boton-secundary);
   padding: 2rem .6rem;
   font-size: 20px;
 }
 
-
-
 .indicator {
-  padding: 10px;
-  border-radius: 50px;
-  border: 2px solid #000;
+  padding: 2px 4px;
+  border-radius: 50%;
+  background-color: #E5BCD9;
   color: #000;
+  font-size: xx-small;
+  text-align: center;
 }
+
 .accountAndCartHeader i:hover {
   color: var(--rosa);
 }

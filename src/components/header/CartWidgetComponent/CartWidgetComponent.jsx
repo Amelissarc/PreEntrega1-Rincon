@@ -3,10 +3,13 @@ import { Badge } from 'react-bootstrap';
 
 export const CartWidget = () => {
     const cartItemsCount = 3; // número hardcodeado
+    const titleName = 'Cart';
 return (
     <div className='cartWidge'>
-        <i className="fa-solid fa-cart-shopping"></i>
+        <i className="fa-solid fa-cart-shopping">
         <span className='indicator'>{cartItemsCount}</span>
+        </i>
+        <span>{titleName}</span>
     </div>
 );
 };
