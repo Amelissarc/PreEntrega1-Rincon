@@ -5,8 +5,8 @@ const ItemListContainer = ({ greeting }) => {
         <div className="item-list-container">
             <h2 className="item-list-container__title">{greeting}</h2>
             <div className="item-list-container__content">
-            {/* aquí va el contenido de la lista de items */}
-        </div>
+                {/* aquí va el contenido de la lista de items */}
+            </div>
         </div>
     );
 };
