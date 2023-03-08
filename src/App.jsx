@@ -6,10 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   return (
-    <div className="mainContainer">
-      <NavBarComponent />
-      <NavbarDarkExample />
-      <ItemListContainer greetings = "Bienvenidos a mi Ecommerce" />
+    <div className="bodyContainer">
+      <div className="headerContainer">
+        <NavBarComponent />
+        <NavbarDarkExample />
+      </div>
+      <div className="mainContainer">
+        <ItemListContainer greeting = "Welcome to the KARYA store" />
+      </div>
     </div>
   );
 }

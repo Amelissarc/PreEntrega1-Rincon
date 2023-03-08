@@ -27,9 +27,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.containerPage {
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 20px;
-  border: 1px solid #CED0D3;
+.bodyContainer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.mainContainer {
+  margin: 2rem 5rem;
+  font-family: 'Montserrat', sans-serif;
 }

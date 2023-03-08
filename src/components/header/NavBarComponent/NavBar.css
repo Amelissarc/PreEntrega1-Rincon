@@ -89,7 +89,8 @@ div.container-fluid {
 a.navbar-brand {
   font-size: 1rem;
   margin-right: 1rem;
-  color:rgba(0, 0, 0, 0.7);
+  color:var( --gris-texto);
+  font-weight: 300;
 }
 
 a.navbar-brand:hover {
@@ -106,5 +107,10 @@ a.dropdown-item:hover {
 }
 
 a.dropdown-toggle:hover {
+  color: var(--chocolate);
+}
+
+.item-list-container__title {
+  font-size: 20px;
   color: var(--chocolate);
 }
