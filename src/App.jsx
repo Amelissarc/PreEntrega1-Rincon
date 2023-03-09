@@ -1,10 +1,9 @@
 import styles from "./components/header/NavBarComponent/NavBar.css";
-import {NavBarComponent, NavbarDarkExample, ItemListContainer} from "./components";
+import {NavBarComponent, NavbarDarkExample, ItemListContainer, CardComponent } from "./components";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-
   return (
     <div className="bodyContainer">
       <div className="headerContainer">
@@ -12,10 +11,9 @@ function App() {
         <NavbarDarkExample />
       </div>
       <div className="mainContainer">
-        <ItemListContainer greeting = "Welcome to the KARYA store" />
+        <ItemListContainer greeting = "All products" />
       </div>
     </div>
   );
 }
-
 export default App;

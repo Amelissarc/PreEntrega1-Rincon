@@ -73,7 +73,7 @@ aside {
   background-color: var(--rosa);
   width: 100%;
   padding: 26px;
-  position: fixed;
+  position:absolute;
 }
 
 div.container-fluid {
@@ -107,10 +107,5 @@ a.dropdown-item:hover {
 }
 
 a.dropdown-toggle:hover {
-  color: var(--chocolate);
-}
-
-.item-list-container__title {
-  font-size: 20px;
   color: var(--chocolate);
 }

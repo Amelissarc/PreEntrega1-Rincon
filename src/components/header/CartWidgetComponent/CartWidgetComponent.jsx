@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 export const CartWidget = () => {
-    const cartItemsCount = 3; // número hardcodeado
+    // const cartItemsCount = 3; // número hardcodeado
+    const [cartItemsCount] = useState(0);
     const titleName = 'Cart';
 return (
     <div className='cartWidge'>
@@ -14,3 +15,4 @@ return (
 };
 
 export default CartWidget;
+

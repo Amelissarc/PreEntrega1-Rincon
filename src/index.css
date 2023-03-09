@@ -25,6 +25,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: scroll;
 }
 
 .bodyContainer {
@@ -33,6 +34,5 @@ body {
 }
 
 .mainContainer {
-  margin: 2rem 5rem;
   font-family: 'Montserrat', sans-serif;
 }
