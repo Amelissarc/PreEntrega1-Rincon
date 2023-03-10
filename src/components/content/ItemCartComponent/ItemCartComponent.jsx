@@ -20,13 +20,13 @@ export function CardComponent (props) {
     }
 
 return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '20rem' }}>
         <Card.Img variant="top" src={imgSrc} />
         <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <Card.Text>{props.text}</Card.Text>
             <button className='btnCard' onClick={lessContador}>-</button>
-            <span>{contador}</span>
+            <span className='btnCard'>{contador}</span>
             <button className='btnCard' onClick={addContador}>+</button>       
         </Card.Body>
     </Card>

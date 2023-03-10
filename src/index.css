@@ -25,7 +25,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .bodyContainer {
@@ -35,4 +35,6 @@ body {
 
 .mainContainer {
   font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  overflow: hidden;
 }
