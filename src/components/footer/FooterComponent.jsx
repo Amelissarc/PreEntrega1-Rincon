@@ -8,7 +8,7 @@ return (
         <div className="containerFooter">
             <div className="boxFooter">
                 <div className="logoFooter">
-                    <img src="#" alt="...." />
+                    <img src="" alt="..." />
                 </div>
                 <div className="terms">
                     <p>We sell custom products for all your needs.Packs and bulk products that you will enjoy.</p>
