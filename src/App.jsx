@@ -1,5 +1,5 @@
 import styles from "./components/header/NavBarComponent/NavBar.css";
-import {NavBarComponent, NavbarDarkExample, ItemListContainer, CardComponent } from "./components";
+import {NavBarComponent, NavbarDarkExample, ItemListContainer, CardComponent, Footer } from "./components";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -13,6 +13,7 @@ function App() {
       <div className="mainContainer">
         <ItemListContainer greeting = "All products" />
       </div>
+        <Footer />
     </div>
   );
 }
