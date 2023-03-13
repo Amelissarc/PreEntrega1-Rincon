@@ -3,34 +3,35 @@ import stylesFooter from './footerComponent.css';
 
 export const Footer = () => {
 return (
-    <div>
+    <React.Fragment>
         <footer className="footer">
         <div className="containerFooter">
             <div className="boxFooter">
                 <div className="logoFooter">
-                    <img src="" alt="..." />
+                    <img src="./img/logo-webtrabajo.png" alt="logofooter" />
                 </div>
                 <div className="terms">
-                    <p>We sell custom products for all your needs.Packs and bulk products that you will enjoy.</p>
+                    <p>We sell custom products for all your needs. <br />
+                        Packs and bulk products that you will enjoy.</p>
                     <div className="phoneContact">
-                        <i class="fa-solid fa-phone"></i>
+                        <i className="fa-solid fa-phone"></i>
                         <span>+34 642 49 25 15</span>
                     </div>
                     <div className="redesFooter">
                         <a href="#" aria-label="facebook">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
+                            <i className="fa-brands fa-facebook"></i>
+                        </a>    
                         <a href="#" aria-label="twitter">
-                            <i class="fa-brands fa-square-twitter"></i>
+                            <i className="fa-brands fa-square-twitter"></i>
                         </a>
                         <a href="#" aria-label="instagram">
-                            <i class="fa-brands fa-square-instagram"></i>
+                            <i className="fa-brands fa-square-instagram"></i>
                         </a>
                         <a href="#" aria-label="tiktok">
-                            <i class="fa-brands fa-tiktok"></i>
+                            <i className="fa-brands fa-tiktok"></i>
                         </a>
                         <a href="#" aria-label="youtube">
-                            <i class="fa-brands fa-youtube"></i>
+                            <i className="fa-brands fa-youtube"></i>
                         </a>
                     </div>  
                 </div>
@@ -58,7 +59,7 @@ return (
             </div>
         </div>
         </footer>
-    </div>
+    </React.Fragment>
 )
 }
 

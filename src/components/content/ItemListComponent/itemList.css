@@ -19,12 +19,31 @@
     margin: 0%;
 }
 .btnCard {
-    width: 50px;
-    padding: 5px;
+    width: 30px;
+    padding: 4px 2px;
     margin-right: 10px;
     border-radius: 8px;
     text-align: center;
     border: 1px;
+}
+
+.btnCard:hover {
+    background-color: var(--rosa);
+}
+span.btnCard:hover {
+    background-color: var(--boton-secundary);
+}
+
+
+.buttonText {
+    width: 150px;
+    height: 48px;
+    border-radius: 140px;
+    border: 1px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: var(--boton-principal);
+    color: var(--boton-secundary);
 }
 
 /*Tablet*/

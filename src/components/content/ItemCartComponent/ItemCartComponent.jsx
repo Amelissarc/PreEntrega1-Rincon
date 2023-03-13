@@ -27,7 +27,8 @@ return (
             <Card.Text>{props.text}</Card.Text>
             <button className='btnCard' onClick={lessContador}>-</button>
             <span className='btnCard'>{contador}</span>
-            <button className='btnCard' onClick={addContador}>+</button>       
+            <button className='btnCard' onClick={addContador}>+</button>
+            <button className='buttonText' >{props.buttonText}</button>     
         </Card.Body>
     </Card>
 );

@@ -1,6 +1,7 @@
 import React from 'react';
 import CartWidget from '../CartWidgetComponent/CartWidgetComponent';
 import LoginWidget from '../LoginWidgetComponent/LoginWidgetComponent';
+import FolderList from '../HandleListItem/HandleListItem';
 
 /* Bootstrap */
 import Container from 'react-bootstrap/Container';
@@ -65,9 +66,7 @@ export function NavbarDarkExample() {
                     id="nav-dropdown-dark-example"
                     title="Favorites"
                 >
-                    <NavDropdown.Item href="#action/3.1">Kit yoga </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">Math blue </NavDropdown.Item>
-                    
+                    <FolderList />
                     <NavDropdown.Divider />
 
                     <NavDropdown.Item href="#action/3.4">Go to Home</NavDropdown.Item>

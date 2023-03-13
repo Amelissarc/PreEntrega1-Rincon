@@ -11,22 +11,32 @@ footer {
 .containerFooter {
     display: flex;
     /* flex-wrap: wrap; */
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin:5rem;
 }
 .containerFooter a  {
-    color:#FFFFFF;
     font-weight: 300;
+    text-decoration: none;
+    list-style: none;
+    color:#FFFFFF;
+    line-height: 2.6;
+}
+.containerFooter a:hover  {
+    font-weight: 300;
+    text-decoration: none;
+    list-style: none;
+    color: var(--rosa);
 }
 .boxFooter {
     display: flex;
     flex-direction: column;
-    padding: 90px 20px; 
+    padding: 100px 20px 20px; 
 }
-.boxFooter img {
+.logoFooter img {
     width: 180px;
-    margin-top: -30px;
-    margin-left: -30px;
+    height: 180px;
+    margin-top: -110px;
+    margin-left: 80px;
 }
 .boxFooter h4 {
     margin-bottom: 40px;
@@ -45,10 +55,11 @@ footer {
 }
 .redesFooter {
     display: flex;
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     margin-top: 40px;
     width: 50px;   
+    gap: 30px;
 }
 .redesFooter i {
     text-align: left;
